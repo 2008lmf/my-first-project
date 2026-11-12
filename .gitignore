@@ -1,0 +1,57 @@
+# ---- 系统 / 编辑器 ----
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*~
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sublime-workspace
+
+# ---- 环境 / 密钥（永远不要提交）----
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+secrets.json
+credentials.json
+
+# ---- Node.js ----
+node_modules/
+dist/
+build/
+coverage/
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+.pnpm-store/
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+*.egg-info/
+
+# ---- 编译产物 ----
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.o
+*.obj
+*.class
+target/
+
+# ---- 临时文件 ----
+tmp/
+temp/
+*.log
